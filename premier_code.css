@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'fonts_01';
+    src: url('Fonts/aaargh-webfont.woff2') format('woff2'), url('Fonts/aaargh-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fonts_02';
+    src: url('victormono-regular-webfont.woff2') format('woff2'), url('victormono-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#topsection {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+ul {
+    list-style-type: none;
+    border: 3px rgb(194, 136, 29) solid;
+}
+
+p {
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+    border: 3px rgb(194, 136, 29) solid;
+}
+
+body {
+    background-color: burlywood;
+    font-family: 'fonts_01';
+    /*   background-image: url("images/dou'a.jpg");  
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top right; */
+}
+
+* {
+    padding: 5px;
+}
+
+h1 {
+    border: 1px rgb(223, 138, 10) solid;
+    width: 90%;
+    background-color: rgb(223, 174, 111);
+    font-family: "fonts_02";
+}
+
+#en_tete {
+    display: flex;
+}
+
+#logo {
+    order: 2;
+    margin-right: 100px;
+}
+
+#titre {
+    margin-top: 25px;
+}
+
+#menu {}
+
+#photo2 {
+    order: 1;
+    margin-right: 100px;
+}
+
+#photo3 {
+    order: 3;
+}
+
+#banniere {}
+
+#corps {
+    display: flex;
+}
+
+#cote {
+    background-color: rgb(223, 174, 111);
+    height: 100%;
+    margin-top: 25px;
+    margin-right: 50px;
+    padding-bottom: 10px;
+    border: 1px rgb(223, 138, 10) solid;
+}
+
+#cote * {
+    background-color: rgb(223, 174, 111);
+    color: black;
+    border-style: none;
+}
